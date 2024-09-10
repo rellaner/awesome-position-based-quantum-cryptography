@@ -1,5 +1,5 @@
 # Purpose and Goal
-This list aims to provide an always up-to-date overview over the academic literature on position-based quantum cryptography (PBQC), a growing field of study within quantum cryptography. The overview is categorised to make the relevance of a paper easily comprehensible. This list should facilitate entering the topic and make the process of getting an overview efficient.
+This list aims to provide an always up-to-date overview over the academic literature on position-based quantum cryptography (PBQC), a growing field of study within quantum cryptography. The overview is categorised to make the relevance of a paper easily comprehensible. The list should facilitate entering the topic and make the process of getting an overview efficient.
 
 Contributions from the community are welcomed and wanted!
 
