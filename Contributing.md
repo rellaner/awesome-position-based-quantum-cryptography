@@ -13,7 +13,7 @@ When making a **pull request**, please make sure to:
 - Within categories, please ensure link names are in chronological order.
 - Have your description:
   - Be short and simple, descriptive but not pitchy or promotional.
-  - Follow this format: `[name (year)](link) - Description.'. The `year' should be the year in which the paper first appeared online.
+  - Follow this format: `[name (year)](link) - Description.`. The 'year' should be the year in which the paper first appeared online.
   - Start with a capital and end with a full stop/period; no trailing whitespace.
   - Checked for spelling and grammar.
 
