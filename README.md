@@ -14,7 +14,7 @@ This is a curated list of papers on position-based quantum cryptography (PBQC). 
 
 ## Classical Impossibility
 
-- [Position-based Cryptography (2009)](https://doi.org/10.1007/978-3-642-03356-8_23) - Establishes classical impossibility of position-based cryptography in the vanilla model. Shows possibility in bounded-storage model.
+- [Position-based Cryptography (2009)](https://doi.org/10.1007/978-3-642-03356-8_23) - Establishes classical impossibility of position-based cryptography in the vanilla model. Shows possibility in the bounded-storage model.
 
 ## First Protocols
 
