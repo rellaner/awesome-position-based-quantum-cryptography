@@ -39,10 +39,10 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Shows security against unentangled attacks.
 - [A monogamy-of-entanglement game with applications
 to device-independent quantum cryptography (2013)](https://doi.org/10.1088/1367-2630/15/10/103002) - Shows a tight upper bound for unentangled attacks, parallel repetition and a linear lower bound for the repeated protocol.
-- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Considers the case where the two input bases are related by a unitary $U$ and shows efficient attacks for certain classes, like the second level of the Clifford hierarchy.
+- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Considers the case where the two input bases are related by a unitary $U$ and shows efficient attacks for certain classes, like the second level of the Clifford hierarchy. Also provides a related, but slightly different, protocol based on interleaved unitaries.
 - [A tight lower bound for the BB84-states quantum-position-verification protocol (2015)](https://arxiv.org/abs/1504.07171) - Gives essentially tight lower bound for attacks with classical communication.
 - [Loss-tolerant position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.91.042337) - Generalises BB84 QPV to more input bases and notes better loss tolerance properties because of it.
-- [Position-based quantum cryptography and catalytic computation (2016)](https://eprints.illc.uva.nl/id/eprint/2138/) - Chapter 5 independently generalises BB84 QPV to more input bases.
+- [Position-based quantum cryptography and catalytic computation (2016)](https://eprints.illc.uva.nl/id/eprint/2138/) - Chapter 5 independently generalises BB84 QPV to more input bases. Also provides an efficient attack on the protocol based on interleaved unitaries.
 - [Breaking simple quantum position verification protocols
 with little entanglement (2020)](https://arxiv.org/abs/2007.15808) - Considers the case when the input bases are related by different angles and shows dimension-dependent attacks depending on the angle. Notably, they show the angle $\pi/6$ (outside the Clifford hierarchy) can be attacked with a 6-dimensional resource state.
 - [Single-qubit loss-tolerant quantum position verification protocol secure against en-
