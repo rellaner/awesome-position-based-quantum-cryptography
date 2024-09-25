@@ -96,6 +96,10 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ## Ways Around the Universal Attacks on QPV
 
+- [Quantum tagging for tags containing secret classical data (2011)](https://doi.org/10.1103/PhysRevA.84.022335) - Considers QPV in the setting when the verifiers and the prover pre-share a secret. Shows that then QPV is unconditionally secure by indefinitely expanding the secret using QKD.
+- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Shows unconditional security of $f$-BB84 QPV in the random oracle model.
+- [Beating classical impossibility of position verification (2022)](https://doi.org/10.4230/LIPIcs.ITCS.2022.100) - Constructs a QPV protocol from the assumption that LWE is quantum-hard. Shows unconditional security in the random oracle model.
+
 ## Conjectured Exponential Lower Bound
 
 - [Geometry of Banach spaces: A new route towards position based cryptography (2021)](https://doi.org/10.1007/s00220-022-04407-9) - Provides a new protocol based on applying a phase unitary depending on the classical input information. Shows an exponential lower bound under a regularity assumption on the attack, and an exponential lower bound conditioned on an, as yet, unresolved Banach space geometry conjecture.
