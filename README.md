@@ -31,15 +31,13 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - [Quantum
 tagging: Authenticating location via quantum information and rel-
 ativistic signalling constraints (2011)](https://doi.org/10.1103/PhysRevA.84.012326) - Introduces a rooster of different QPV protocols like BB84 QPV, $f$-routing, $f$-BB84 QPV and variations of them. Mentions entanglement-based attacks on some of them.
-- [Insecurity of position-based
-quantum cryptography protocols against entanglement attacks (2011)](https://doi.org/10.1103/PhysRevA.83.012322) - Proves insecurity of QPV protocols that were previously claimed secure and studies general principle underlying entanglement attacks. Studies variations of QPV protocols based on Bell/GHZ states and shows that using eigenstates other than Pauli $X$, $Y$, $Z$ leads to protocols that need >1 EPR pair to be attacked.
 
 ### BB84 QPV and Generalisations
 
 - [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Shows security against unentangled attacks.
 - [A monogamy-of-entanglement game with applications
 to device-independent quantum cryptography (2013)](https://doi.org/10.1088/1367-2630/15/10/103002) - Shows a tight upper bound for unentangled attacks, parallel repetition and a linear lower bound for the repeated protocol.
-- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Considers the case where the two input bases are related by a unitary $U$ and shows efficient attacks for certain classes, like the second level of the Clifford hierarchy. Also provides a related, but slightly different, protocol based on interleaved unitaries.
+- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Considers the case where the two input bases are related by a unitary $U$.
 - [A tight lower bound for the BB84-states quantum-position-verification protocol (2015)](https://arxiv.org/abs/1504.07171) - Gives essentially tight lower bound for attacks with classical communication.
 - [Loss-tolerant position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.91.042337) - Generalises BB84 QPV to more input bases and notes better loss tolerance properties because of it.
 - [Position-based quantum cryptography and catalytic computation (2016)](https://eprints.illc.uva.nl/id/eprint/2138/) - Chapter 5 independently generalises BB84 QPV to more input bases. Chapter 4 provides an efficient attack on the protocol based on interleaved unitaries.
@@ -59,13 +57,30 @@ tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tigh
 - [Rank lower bounds on non-local quantum computation (2024)](https://arxiv.org/abs/2402.18647) - Provides a lower bound in terms of the Schmidt-rank of the resource state for perfect attacks. Gives linear lower bounds for some concrete functions.
 - [Linear gate bounds against natural functions for position-verification (2024)](https://arxiv.org/abs/2402.18648) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
 
-### $f$-BB84
+### $f$-BB84 QPV
 
 - [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model.
 - [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
 - [Single-qubit loss-tolerant quantum position verification protocol secure against en-
 tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
 - [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://arxiv.org/abs/2404.14261) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
+
+### Bell QPV
+
+- [Location-dependent communications using
+quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Studies QPV based on Bell states. Claimed unconditional security, which later turned out to be false.
+- [Quantum location verification in noisy channels (2010)](https://doi.org/10.1109/GLOCOM.2010.5684009) - Studies QPV based on Bell states, GHZ states and entanglement swapping. Studies the effect of noise/decoherence.
+- [Insecurity of position-based
+quantum cryptography protocols against entanglement attacks (2011)](https://doi.org/10.1103/PhysRevA.83.012322) - Proves insecurity of QPV protocols that were previously claimed secure and studies general principle underlying entanglement attacks. Studies variations of QPV protocols based on Bell/GHZ states and shows that using eigenstates other than Pauli $X$, $Y$, $Z$ leads to protocols that need >1 EPR pair to be attacked.
+- [Loss-tolerant quantum secure positioning with weak laser sources (2016)](https://doi.org/10.1103/PhysRevA.94.032315) - Studies a version of the protocol with separable inputs. Proves full loss tolerance and studies practical implementation based on decoy states.
+- [On the role of quantum communication and loss in attacks on quantum position verification (2022)](https://arxiv.org/abs/2311.00677) - Proves a 3/4 upper bound on the success probability of unentangled attacks.
+- [Monogamy of highly symmetric states (2023)](https://arxiv.org/abs/2309.16655) - The results in this paper imply a $\ln(2) \approx 0.69$ upper bound on the success probability of unentangled attacks.
+
+### Other protocols
+
+- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Provides a protocol based on interleaved unitaries, conjecturing security. The protocol was broken efficiently later.
+- [Quantum position verification in bounded-attack-frequency model (2016)](https://doi.org/10.1007/s11433-016-0234-0) - Considers BB84 QPV with non-simultaneous arrival times of input information at the prover (the basis being encoded in which side arrived first). Discusses the general port-based attack in this setting. 
+- [Practically secure quantum position verification (2021)](https://doi.org/10.1088/1367-2630/ac0755) - Gives an overview over the existing protocols at the time and mixes elements of them to obtain different variations of those protocols.
 
 ## Universal Attacks on QPV
 
@@ -74,9 +89,16 @@ tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tigh
 - [Instantaneous non-local computation of low T-depth quantum circuits (2016)](https://doi.org/10.4230/LIPIcs.TQC.2016.9) - Provides a general attack on QPV using an exponential amount of pre-shared EPR pairs in the number of T-gates or T-depth based on the circuit decomposition of the task unitary into Clifford+T gates.
 - [Non-local computation of quantum circuits with small light cones (2022)](https://arxiv.org/abs/2203.10106) - Provides a general attack on QPV based on the geometric structure of a circuit decomposition of the task unitary. Is more efficient for certain classes of unitaries than previous general attacks.
 
+### Attacks on classes of unitaries
+
+- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Shows efficient attacks for certain classes, like the second level of the Clifford hierarchy.
+- [Bounds on instantaneous non-local quantum computation (2020)](https://doi.org/10.1109/TIT.2019.2950190) - Shows that any 2-qubit unitary can be attacked up to error $\varepsilon$ using $\log(1/\varepsilon)$ EPR pairs and that any hermitian bipartite binary controlled unitary can be attacked with 1 EPR pair. Shows logarithmic lower bound on entanglement entropy for general bipartite binary controlled unitary.
+
 ## Ways Around the Universal Attacks on QPV
 
 ## Conjectured Exponential Lower Bound
+
+- [Geometry of Banach spaces: A new route towards position based cryptography (2021)](https://doi.org/10.1007/s00220-022-04407-9) - Provides a new protocol based on applying a phase unitary depending on the classical input information. Shows an exponential lower bound under a regularity assumption on the attack, and an exponential lower bound conditioned on an, as yet, unresolved Banach space geometry conjecture.
 
 ## Quantum Position-based Authentication
 
