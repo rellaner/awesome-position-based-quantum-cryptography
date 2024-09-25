@@ -50,6 +50,22 @@ tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tigh
 - [Security of a continuous-variable based quantum position verification protocol (2023)](https://arxiv.org/abs/2308.04166) - Generalises the protocol to continuous variable inputs and shows security against unentangled attacks depending on loss and noise rates.
 - [Perfect cheating is impossible for single-qubit position verification (2024)](https://arxiv.org/abs/2406.20022) - Considers a generalisation where the input qubits are eigenstates of a $\mathbb{C}^2$ projector chosen uniformly at random. Shows that no finite-dimensional resource state can perfectly attack this protocol.
 
+### $f$-routing
+
+- [The garden-hose model (2013)](https://doi.org/10.1145/2422436.2422455) - Studies attacks on $f$-routing and introduces garden-hose complexity to connect attacks on $f$-routing to complexity theory. Provides many first results regarding that connection, for example that any $f \in \mathsf{L}$ (with pre-processing) can be attacked efficiently.
+- [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
+- [Code-routing: A new attack on position verification (2023)](https://doi.org/10.22331/q-2023-08-09-1079) - Provides a new attack on $f$-routing, connecting attacks to secret-sharing schemes and span programs, and showing that any $f \in \mathsf{Mod}_p\mathsf{L}$ (with pre-processing), for $p$ prime, can be attacked efficiently.
+- [Relating non-local quantum computation to information theoretic cryptography (2023)](https://doi.org/10.22331/q-2024-06-27-1387) - Connects $f$-routing to topics in classical cryptography, in particular conditional disclosure of secrets. Shows a sub-exponential upper bound for attacks for any $f$ and finds an $f$ that is believed to be outside of $\mathsf{P}$ (with pre-processing), but efficiently attacked.
+- [Rank lower bounds on non-local quantum computation (2024)](https://arxiv.org/abs/2402.18647) - Provides a lower bound in terms of the Schmidt-rank of the resource state for perfect attacks. Gives linear lower bounds for some concrete functions.
+- [Linear gate bounds against natural functions for position-verification (2024)](https://arxiv.org/abs/2402.18648) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
+
+### $f$-BB84
+
+- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model. Provides more efficient extensions to QPA and PB-QKD in the random oracle model. 
+- [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
+- [Single-qubit loss-tolerant quantum position verification protocol secure against en-
+tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
+- [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://arxiv.org/abs/2404.14261) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
 
 ## Universal Attacks on QPV
 
