@@ -61,7 +61,7 @@ tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tigh
 
 ### $f$-BB84
 
-- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model. Provides more efficient extensions to QPA and PB-QKD in the random oracle model. 
+- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model.
 - [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
 - [Single-qubit loss-tolerant quantum position verification protocol secure against en-
 tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
@@ -81,6 +81,7 @@ tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tigh
 ## Quantum Position-based Authentication
 
 - [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Provides a generic, but inefficient, construction to go from QPV to QPA to PB-QKD.
+- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Provides more efficient extensions to QPA and PB-QKD in the random oracle model for $f$-BB84 QPV. 
 
 ## Towards Understanding NLQC
 
