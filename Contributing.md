@@ -13,7 +13,7 @@ When making a **pull request**, please make sure to:
 - Within categories, please ensure link names are in chronological order.
 - Have your description:
   - Be short and simple, descriptive and factual, consisting of 1-2 sentences. 
-  - Follow this format: `[name (year)](DOI link) - Description.`. The 'year' should be the year in which the paper first appeared online. Use the unique DOI link if available.
+  - Follow this format: `[name (year)](DOI link) - Description.`. If known, the 'year' should be the year in which the paper first appeared online, otherwise the year of peer-reviewed publication. Use the unique DOI link if available.
   - Start with a capital and end with a full stop/period; no trailing whitespace.
   - Checked for spelling and grammar.
 
