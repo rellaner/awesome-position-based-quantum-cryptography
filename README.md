@@ -112,6 +112,14 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ## Towards Understanding NLQC
 
+- [Quantum tasks in Minkowski space (2012)](https://doi.org/10.1088/0264-9381/29/22/224013) - Considers more general quantum tasks than QPV.
+- [Popescu-Rohrlich correlations imply efficient instantaneous nonlocal quantum computation (2016)](https://doi.org/10.1103/PhysRevA.94.022318) - Shows that if attackers share PR boxes, then any unitary can be attacked using only linear entanglement and a linear number of PR box uses.
 - [Constraining the doability of relativistic quantum tasks (2019)](https://arxiv.org/abs/1909.05403) - Generalises the port-based attack to more general quantum tasks and spacetime circuits. Finds that the coarse causal structure of the task is the relevant property determining whether the task is doable non-locally.
+
+### Connection to holography
+
+- [Quantum tasks in holography (2019)](https://doi.org/10.1007/JHEP10(2019)233) - Connects QPV to the AdS/CFT conjecture by noting that a QPV protocol in the bulk must have an equivalent protocol in the boundary. The boundary implementation turns out to be a valid attack on the bulk QPV protocol, implementing it non-locally.
+- [Holographic scattering requires a connected entanglement wedge (2020](https://doi.org/10.1007/JHEP08(2020)132) - Furthers the connection between QPV and holography and estimates the mutual information between the relevant boundary regions. Results based on the conjecture could yield efficient attacks on all QPV protocols due to the results in this paper.
+- [Complexity and entanglement in non-local computation and holography (2022)](https://doi.org/10.22331/q-2022-11-28-864) - Notes that the necessary attack resource requirements are controlled by the entangled part of the task unitary. Shows that for tasks where one side is classical input information, a doubly-logarithmic (later improved to logarithmic) lower bound and exponential upper bound (in terms of any complexity measure of your choice of the entangled part of the task unitary) hold for attacks.
 
 ## Towards Practicality
