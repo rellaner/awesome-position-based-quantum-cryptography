@@ -134,7 +134,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - [Loss-tolerant position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.91.042337) - Generalises BB84 QPV to more input bases and notes better loss tolerance properties because of it. Also discusses using decoy states and continuous variables for BB84 QPV.
 - [Loss-tolerant quantum secure positioning with weak laser sources (2016)](https://doi.org/10.1103/PhysRevA.94.032315) - Studies Bell QPV with separable inputs. Proves full loss tolerance and studies practical implementation based on decoy states.
 - [Single-qubit loss-tolerant quantum position verification protocol secure against en-
-tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of BB84 QPV depending on the loss and error rates.
+tangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of BB84 QPV and $f$-BB84 QPV depending on the loss and error rates.
 - [Security of a continuous-variable based quantum position verification protocol (2023)](https://arxiv.org/abs/2308.04166) - Generalises BB84 QPV to continuous variable inputs and shows security against unentangled attacks depending on loss and noise rates.
 - [Towards practical quantum position verification (2023)](https://arxiv.org/abs/2309.10070) - Delves into technical details of a practical QPV implementation.
 - [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://arxiv.org/abs/2404.14261) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
