@@ -1,4 +1,4 @@
-# Awesome Position-based Quantum Cryptography
+# Awesome Position-based Quantum Cryptography [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 This is a curated list of papers on position-based quantum cryptography (PBQC). The goal is to build a categorised community-driven always up-to-date literature overview of this growing field.
 
 QPV = Quantum Position Verification
@@ -15,7 +15,7 @@ PB-QKD = Position-based Quantum Key Distribution
 - [Ways Around the Universal Attacks on QPV](#ways-around-the-universal-attacks-on-qpv)
 - [Conjectured Exponential Lower Bound](#conjectured-exponential-lower-bound)
 - [Quantum Position-based Authentication](#quantum-position-based-authentication)
-- [Towards understanding NLQC](#towards-understanding-nlqc)
+- [Towards Understanding NLQC](#towards-understanding-nlqc)
 - [Towards Practicality](#towards-practicality)
 
 ## Classical Impossibility
