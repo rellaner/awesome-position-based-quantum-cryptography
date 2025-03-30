@@ -11,7 +11,7 @@ When making a **pull request**, please make sure to:
 - Include a link to the resource and briefly describe what it is and why it should be included.
 - Add new categories or improve existing categorization when appropriate.
 - Within categories, please ensure link names are in chronological order.
-- If a paper sits in several categories, include it in each one and only describe the result relevant to the category in its description.
+- If a paper sits in several categories, include it in the most closely related one.
 - Have your description:
   - Be short and simple, descriptive and factual, consisting of 1-2 sentences. 
   - Follow this format: `[name (year)](DOI link) - Description.`. If known, the 'year' should be the year in which the paper first appeared online, otherwise the year of peer-reviewed publication. Use the unique DOI link if available. Ideally, the link points to the peer-reviewed version of the paper.
