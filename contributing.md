@@ -14,7 +14,7 @@ When making a **pull request**, please make sure to:
 - If a paper sits in several categories, include it in the most closely related one.
 - Have your description:
   - Be short and simple, descriptive and factual, consisting of 1-2 sentences. 
-  - Follow this format: `[name (year)](DOI link) - Description.`. If known, the 'year' should be the year in which the paper first appeared online, otherwise the year of peer-reviewed publication. Use the unique DOI link if available. Ideally, the link points to the peer-reviewed version of the paper.
+  - Follow this format: `[name (year)](DOI link) - Description.`. If known, the 'year' should be the year in which the paper first appeared online, otherwise the year of peer-reviewed publication. Use the unique DOI link if available. Ideally, the link points to the peer-reviewed version of the paper and is openly accessible.
   - Start with a capital and end with a full stop/period; no trailing whitespace.
   - Checked for spelling and grammar.
 
