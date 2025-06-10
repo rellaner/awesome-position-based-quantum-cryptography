@@ -105,7 +105,8 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 - [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Provides a generic, but inefficient, construction to go from QPV to QPA to PB-QKD.
 - [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Provides more efficient extensions to QPA and PB-QKD in the random oracle model for $f$-BB84 QPV. 
-
+- [Quantum Secure Key Exchange with Position-based Credentials (2025)](https://arxiv.org/abs/2506.03549) - Improved analysis of how to use QPV to provide the authentication within QKD.
+ 
 ## Towards Understanding NLQC
 
 - [Quantum tasks in Minkowski space (2012)](https://doi.org/10.1088/0264-9381/29/22/224013) - Considers more general quantum tasks than QPV.
@@ -116,6 +117,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - [Relating non-local quantum computation to information theoretic cryptography (2023)](https://doi.org/10.22331/q-2024-06-27-1387) - Connects NLQC to some protocols in classical cryptography via $f$-routing.
 - [Time-constrained local quantum state discrimination (2023)](https://arxiv.org/abs/2311.00677) - Studies the difference between unentangled quantum and classical attacks on state discrimination QPV protocols and proves several results on that, for example that there is a separable state ensemble that can be perfectly discriminated with quantum communication, but not without.
 - [Security of position-based quantum cryptography limits Hamiltonian simulation via holography (2024)](https://doi.org/10.1007/JHEP08(2024)152) - Connects QPV to Hamiltonian simulation. Shows that if a superlinear lower bound can be shown for QPV attacks, then there are new fundamental lower bounds for resources required for one Hamiltonian to simulate another.
+- [A complexity theory for non-local quantum computation (2025)](https://arxiv.org/abs/2505.23893) - Finds relations between a wide range of different NLQC tasks, including showing that $f$-routing and $f$-BB84 are equivalent, with a constant-overhead reduction between them.
 
 ### Connection to holography
 
