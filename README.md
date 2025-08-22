@@ -68,7 +68,7 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Studi
 - [Insecurity of position-based
 quantum cryptography protocols against entanglement attacks (2011)](https://doi.org/10.1103/PhysRevA.83.012322) - Proves insecurity of QPV protocols that were previously claimed secure and studies general principle underlying entanglement attacks. Studies variations of QPV protocols based on Bell/GHZ states and shows that using eigenstates other than Pauli $X$, $Y$, $Z$ leads to protocols that need >1 EPR pair to be attacked.
 - [Loss-tolerant quantum secure positioning with weak laser sources (2016)](https://doi.org/10.1103/PhysRevA.94.032315) - Studies a version of the protocol with separable inputs. Proves full loss tolerance and studies practical implementation based on decoy states.
-- [On the role of quantum communication and loss in attacks on quantum position verification (2022)](https://arxiv.org/abs/2311.00677) - Proves a 3/4 upper bound on the success probability of unentangled attacks.
+- [On the role of quantum communication and loss in attacks on quantum position verification (2022)](https://arxiv.org/abs/2208.04341) - Proves a 3/4 upper bound on the success probability of unentangled attacks.
 - [Monogamy of highly symmetric states (2023)](https://arxiv.org/abs/2309.16655) - The results in this paper imply a $\ln(2) \approx 0.69$ upper bound on the success probability of unentangled attacks.
 
 ### Other protocols
