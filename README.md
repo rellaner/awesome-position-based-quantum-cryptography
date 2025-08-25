@@ -136,3 +136,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - [Making existing quantum position verification protocols secure against arbitrary transmission loss (2023)](https://arxiv.org/abs/2312.12614) - Introduces an extra commitment step into QPV and shows that for a class of protocols, involving $f$-BB84 QPV, this makes the transmission loss irrelevant for security. Argues $f$-BB84 is a practical QPV protocol.
 - [Towards practical quantum position verification (2023)](https://arxiv.org/abs/2309.10070) - Delves into some technical hardware details of a practical QPV implementation.
 - [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://arxiv.org/abs/2404.14261) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
+
+## Experiments
+
+- [Towards experimental demonstration of quantum position verification using single photons (2025)](https://doi.org/10.1088/2058-9565/adf2da) - A first demonstration experiment of QPV using the SWAP protocol, with single photons from a single semiconductor quantum dot in an optical microcavity.
