@@ -53,13 +53,13 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - V. R. Asadi, E. Culf, and A. May: [Rank lower bounds on non-local quantum computation (2024)](https://arxiv.org/abs/2402.18647) - Provides a lower bound in terms of the Schmidt-rank of the resource state for perfect attacks. Gives linear lower bounds for some concrete functions.
 - V. Asadi, R. Cleve, E. Culf, and A. May: [Linear gate bounds against natural functions for position-verification (2024)](https://doi.org/10.22331/q-2025-01-21-1604) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
 
-### $f$-BB84 QPV
+### $f$-measure
 
-- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model.
-- [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
-- [Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
-- [Making existing quantum position verification protocols secure against arbitrary transmission loss (2023)](https://arxiv.org/abs/2312.12614) - Introduces an extra commitment step into QPV and shows that for a class of protocols, involving $f$-BB84 QPV, this makes the transmission loss irrelevant for security. Argues $f$-BB84 is a practical QPV protocol.
-- [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://arxiv.org/abs/2404.14261) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
+- D. Unruh: [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model.
+- A. Bluhm, M. Christandl, and F. Speelman: [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
+- L. Escolà-Farràs and F. Speelman: [Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
+- R. Allerstorfer, A. Bluhm, H. Buhrman, M. Christand, L. Escolà-Farràs, F. Speelman, and P. Verduyn Lunel: [Making existing quantum position verification protocols secure against arbitrary transmission loss (2023)](https://doi.org/10.1103/szwj-s7r6) - Introduces an extra commitment step into QPV and shows that for a class of protocols, involving $f$-BB84 QPV, this makes the transmission loss irrelevant for security. Argues $f$-BB84 is a practical QPV protocol.
+- R. Allerstorfer, L. Escolà-Farràs, A. A. Ray, B. Skoric, and F. Speelman: [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://doi.org/10.1103/PhysRevA.110.062605) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
 
 ### Bell QPV
 
