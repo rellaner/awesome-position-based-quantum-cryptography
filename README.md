@@ -100,7 +100,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ## Conjectured Exponential Lower Bound
 
-- [Geometry of Banach spaces: A new route towards position based cryptography (2021)](https://doi.org/10.1007/s00220-022-04407-9) - Provides a new protocol based on applying a phase unitary depending on the classical input information. Shows an exponential lower bound under a regularity assumption on the attack, and an exponential lower bound conditioned on an, as yet, unresolved Banach space geometry conjecture.
+- M. Junge, A. M. Kubicki, C. Palazuelos, and D. Pérez-García: [Geometry of Banach spaces: A new route towards position based cryptography (2021)](https://doi.org/10.1007/s00220-022-04407-9) - Provides a new protocol based on applying a phase unitary depending on the classical input information. Shows an exponential lower bound under a regularity assumption on the attack, and an exponential lower bound conditioned on an, as yet, unresolved Banach space geometry conjecture.
 
 ## Quantum Position-based Authentication
 
