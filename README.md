@@ -74,11 +74,11 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ### Other protocols
 
-- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Provides a protocol based on interleaved unitaries, conjecturing security. The protocol was broken efficiently later.
-- [Quantum position verification in bounded-attack-frequency model (2016)](https://doi.org/10.1007/s11433-016-0234-0) - Considers BB84 QPV with non-simultaneous arrival times of input information at the prover (the basis being encoded in which side arrived first). Discusses the general port-based attack in this setting. 
-- [Practically secure quantum position verification (2021)](https://doi.org/10.1088/1367-2630/ac0755) - Gives an overview over the existing protocols at the time and mixes elements of them to obtain different variations of those protocols.
-- [Towards practical and error-robust quantum position verification (2021)](https://arxiv.org/abs/2106.12911) - Defines a new protocol based on the SWAP test and studies it theoretically and practically.
-- [Making existing quantum position verification protocols secure against arbitrary transmission loss (2023)](https://arxiv.org/abs/2312.12614) - Introduces an extra commitment step into QPV and shows that for a class of protocols this makes the transmission loss irrelevant for security.
+- K. Chakraborty and A. Leverrier: [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Provides a protocol based on interleaved unitaries, conjecturing security. The protocol was broken efficiently later.
+- F. Gao, B. Liu & QY. Wen: [Quantum position verification in bounded-attack-frequency model (2016)](https://doi.org/10.1007/s11433-016-0234-0) - Considers BB84 QPV with non-simultaneous arrival times of input information at the prover (the basis being encoded in which side arrived first). Discusses the general port-based attack in this setting. 
+- S. Das and G. Siopsis: [Practically secure quantum position verification (2021)](https://doi.org/10.1088/1367-2630/ac0755) - Gives an overview over the existing protocols at the time and mixes elements of them to obtain different variations of those protocols.
+- R. Allerstorfer, H. Buhrman, F. Speelman, and P. Verduyn Lunel: [Towards practical and error-robust quantum position verification (2021)](https://arxiv.org/abs/2106.12911) - Defines a new protocol based on the SWAP test and studies it theoretically and practically.
+- R. Allerstorfer, A. Bluhm, H. Buhrman, M. Christandl, L. Escolà-Farràs, F. Speelman, and P. Verduyn Lunel: [Making existing quantum position verification protocols secure against arbitrary transmission loss (2025)](https://doi.org/10.1103/szwj-s7r6) - Introduces an extra commitment step into QPV and shows that for a class of protocols this makes the transmission loss irrelevant for security.
 
 ## Universal Attacks on QPV
 
