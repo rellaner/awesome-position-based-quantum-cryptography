@@ -126,7 +126,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - H. Apel, T. Cubitt, P. Hayden, T. Kohler, and D. Pérez-García : [Security of position-based quantum cryptography limits Hamiltonian simulation via holography (2024)](https://doi.org/10.1007/JHEP08(2024)152) - Connects QPV to Hamiltonian simulation. Shows that if a superlinear lower bound can be shown for QPV attacks, then there are new fundamental lower bounds for resources required for one Hamiltonian to simulate another.
 - A. Bluhm, S. Höfer, A. May, M. Stasiuk, P. Verduyn Lunel, and H. Yuen: [A complexity theory for non-local quantum computation (2026)](https://doi.org/10.22331/q-2026-07-01-2152) - Finds relations between a wide range of different NLQC tasks, including showing that $f$-route and $f$-measure are equivalent, with a constant-overhead reduction between them.
 - A. Bluhm, S. Höfer, A. May, F. Speelman, and P. Verduyn Lunel: [Equivalence of non-local computation tasks beyond Clifford operations (2026)](https://doi.org/10.48550/arXiv.2606.26354) - Extends the equivalence between $f$-routing and $f$-measure (in the Hadamard basis) to $f$-measure with arbitrary bases, the controlled application of any Clifford unitary, and the controlled application of any unitary of the form $U=C_1 D C_0$ with $D$ an arbitrary diagonal unitary and $C_0$, $C_1$ Clifford circuits.
-- M. Folkertsma, D. Grinko, G. Muuss, and F. Speelman: [Perfect non-local quantum computation is impossible(2026)](https://doi.org/10.48550/arXiv.2609.40228) - Proves that perfect NLQC is impossible
+- M. Folkertsma, D. Grinko, G. Muuss, and F. Speelman: [Perfect non-local quantum computation is impossible(2026)](https://doi.org/10.48550/arXiv.2609.40228) - Proves that perfect NLQC is impossible.
 
 ### Connection to holography
 
@@ -155,6 +155,11 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 ### Additional Features
 - U. Girish, G. Gluch, S. Goldwasser, T. Malkin, L. Orshansky and H. Yuen: [Private Proofs of When and Where (2026)](https://doi.org/10.1007/978-3-032-35409-9_14) - Introduces zero-knowledge position verification and constructs such protocols from secure position verification and post-quantum one-way functions.
 - J. Bartusek, Z. Huang, L. Orshansky, and H. Yuen: [How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat) (2026)](https://doi.org/10.48550/arXiv.2605.30732) - Introduces a stronger notions of position verification called quantum localization, which requires that there is a specified, unclonable state at the verified spacetime point-and that this state can be found nowhere else. Security of such schemes in proven in the classical oracle model.
+
+### Applications
+
+- Y. Wang, G. Smith, A. May: [Secure quantum ranging (2025)](https://doi.org/10.48550/arXiv.2505.04776) -  Proposes a secure quantum ranging protocol that combines quantum ranging with quantum position verification.
+- Z. Guo, F. Kitagawa, and X. Liang: [I Prove, Therefore I Am: Spatiotemporal Multi-Party Computation (2026)](https://doi.org/10.48550/arXiv.2609.26448) - Uses prover’s ability to pass position verification as the definition of its physical presence at the asserted position.
 
 ## Experiments
 
