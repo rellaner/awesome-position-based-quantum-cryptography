@@ -42,7 +42,7 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - A. Olivo, U. Chabaud, A. Chailloux, and F. Grosshans: [Breaking simple quantum position verification protocols with little entanglement (2020)](https://arxiv.org/abs/2007.15808) - Considers the case when the input bases are related by different angles and shows dimension-dependent attacks depending on the angle. Notably, they show the angle $\pi/6$ (outside the Clifford hierarchy) can be attacked with a 6-dimensional resource state.
 - L. Escolà-Farràs and F. Speelman: [Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
 - R. Allerstorfer, L. Escolà-Farràs, A. A. Ray, B. Škorić, F. Speelman, and P. Verduyn Lunel: [Security of a continuous-variable based quantum position verification protocol (2023)](https://arxiv.org/abs/2308.04166) - Generalises the protocol to continuous variable inputs and shows security against unentangled attacks depending on loss and noise rates.
-- C. A. Miller and Y. Alnawakhtha: [Perfect cheating is impossible for single-qubit position verification (2024)](https://doi.org/10.1103/4pcn-d1yj) - Considers a generalisation where the input qubits are eigenstates of a $\mathbb{C}^2$ projector chosen uniformly at random. Shows that no finite-dimensional resource state can perfectly attack this protocol.
+- C. A. Miller and Y. Alnawakhtha: [Perfect cheating is impossible for single-qubit position verification (2026)](https://doi.org/10.1103/4pcn-d1yj) - Considers a generalisation where the input qubits are eigenstates of a $\mathbb{C}^2$ projector chosen uniformly at random. Shows that no finite-dimensional resource state can perfectly attack this protocol.
 
 ### $f$-route
 
@@ -51,26 +51,26 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - J. Cree and A. May: [Code-routing: A new attack on position verification (2023)](https://doi.org/10.22331/q-2023-08-09-1079) - Provides a new attack on $f$-routing, connecting attacks to secret-sharing schemes and span programs, and showing that any $f \in \mathsf{Mod}_p\mathsf{L}$ (with pre-processing), for $p$ prime, can be attacked efficiently.
 - R. Allerstorfer, H. Buhrman, A. May, F. Speelman, and P. Verduyn Lunel: [Relating non-local quantum computation to information theoretic cryptography (2023)](https://doi.org/10.22331/q-2024-06-27-1387) - Connects $f$-routing to topics in classical cryptography, in particular conditional disclosure of secrets. Shows a sub-exponential upper bound for attacks for any $f$ and finds an $f$ that is believed to be outside of $\mathsf{P}$ (with pre-processing), but efficiently attacked.
 - V. R. Asadi, E. Culf, and A. May: [Rank lower bounds on non-local quantum computation (2024)](https://arxiv.org/abs/2402.18647) - Provides a lower bound in terms of the Schmidt-rank of the resource state for perfect attacks. Gives linear lower bounds for some concrete functions.
-- V. Asadi, R. Cleve, E. Culf, and A. May: [Linear gate bounds against natural functions for position-verification (2024)](https://doi.org/10.22331/q-2025-01-21-1604) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
+- V. Asadi, R. Cleve, E. Culf, and A. May: [Linear gate bounds against natural functions for position-verification (2025)](https://doi.org/10.22331/q-2025-01-21-1604) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
 
 ### $f$-measure
 
 - D. Unruh: [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model.
 - A. Bluhm, M. Christandl, and F. Speelman: [A single-qubit position verification protocol that is secure against multi-qubit attacks (2022)](https://doi.org/10.1038/s41567-022-01577-0) - Shows a robust linear lower bound on the dimension of the attack resource state.
 - L. Escolà-Farràs and F. Speelman: [Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
-- R. Allerstorfer, A. Bluhm, H. Buhrman, M. Christand, L. Escolà-Farràs, F. Speelman, and P. Verduyn Lunel: [Making existing quantum position verification protocols secure against arbitrary transmission loss (2023)](https://doi.org/10.1103/szwj-s7r6) - Introduces an extra commitment step into QPV and shows that for a class of protocols, involving $f$-BB84 QPV, this makes the transmission loss irrelevant for security. Argues $f$-BB84 is a practical QPV protocol.
+- R. Allerstorfer, A. Bluhm, H. Buhrman, M. Christand, L. Escolà-Farràs, F. Speelman, and P. Verduyn Lunel: [Making existing quantum position verification protocols secure against arbitrary transmission loss (2025)](https://doi.org/10.1103/szwj-s7r6) - Introduces an extra commitment step into QPV and shows that for a class of protocols, involving $f$-BB84 QPV, this makes the transmission loss irrelevant for security. Argues $f$-BB84 is a practical QPV protocol.
 - R. Allerstorfer, L. Escolà-Farràs, A. A. Ray, B. Skoric, and F. Speelman: [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://doi.org/10.1103/PhysRevA.110.062605) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
 
 ### Bell QPV
 
-- [Location-dependent communications using
+- R. A. Malaney: [Location-dependent communications using
 quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Studies QPV based on Bell states. Claimed unconditional security, which later turned out to be false.
-- [Quantum location verification in noisy channels (2010)](https://doi.org/10.1109/GLOCOM.2010.5684009) - Studies QPV based on Bell states, GHZ states and entanglement swapping. Studies the effect of noise/decoherence.
-- [Insecurity of position-based
+- R. A. Malaney: [Quantum location verification in noisy channels (2010)](https://doi.org/10.1109/GLOCOM.2010.5684009) - Studies QPV based on Bell states, GHZ states and entanglement swapping. Studies the effect of noise/decoherence.
+- H.-K. Lau* and H.-K. Lo: [Insecurity of position-based
 quantum cryptography protocols against entanglement attacks (2011)](https://doi.org/10.1103/PhysRevA.83.012322) - Proves insecurity of QPV protocols that were previously claimed secure and studies general principle underlying entanglement attacks. Studies variations of QPV protocols based on Bell/GHZ states and shows that using eigenstates other than Pauli $X$, $Y$, $Z$ leads to protocols that need >1 EPR pair to be attacked.
-- [Loss-tolerant quantum secure positioning with weak laser sources (2016)](https://doi.org/10.1103/PhysRevA.94.032315) - Studies a version of the protocol with separable inputs. Proves full loss tolerance and studies practical implementation based on decoy states.
-- [On the role of quantum communication and loss in attacks on quantum position verification (2022)](https://arxiv.org/abs/2208.04341) - Proves a 3/4 upper bound on the success probability of unentangled attacks.
-- [Monogamy of highly symmetric states (2023)](https://arxiv.org/abs/2309.16655) - The results in this paper imply a $\ln(2) \approx 0.69$ upper bound on the success probability of unentangled attacks.
+- C. C. W. Lim, F. Xu, G. Siopsis, E. Chitambar, P. G. Evans, and B. Qi: [Loss-tolerant quantum secure positioning with weak laser sources (2016)](https://doi.org/10.1103/PhysRevA.94.032315) - Studies a version of the protocol with separable inputs. Proves full loss tolerance and studies practical implementation based on decoy states.
+- R. Allerstorfer, H. Buhrman, F. Speelman, P. Verduyn Lunel: [On the role of quantum communication and loss in attacks on quantum position verification (2022)](https://arxiv.org/abs/2208.04341) - Proves a 3/4 upper bound on the success probability of unentangled attacks.
+- R. Allerstorfer, M. Christandl, D. Grinko, I. Nechita, M. Ozols, D. Rochette, and P. Verduyn Lunel: [Monogamy of highly symmetric states (2025)](https://doi.org/10.1007/s00220-025-05483-3) - The results in this paper imply a $\ln(2) \approx 0.69$ upper bound on the success probability of unentangled attacks.
 
 ### Other protocols
 
