@@ -152,6 +152,11 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - L. Escolà-Farràs and F. Speelman: [Quantum position verification in one shot: parallel repetition of the $f$-BB84 and $f$-routing protocols (2025)](https://doi.org/10.48550/arXiv.2503.09544)- Proves security of $f$-route and $f$-measure under parallel repetition for random functions $f$.
 - L. Escolà-Farràs, B. Škorić, and F. Speelman: [Arbitrarily Loss-Tolerant Quantum Position Verification in a Single Execution (2026)](https://doi.org/10.48550/arXiv.2606.25037) - Proves security of the $f$-measure protocol with commitment step (which is the version of the protocol that is fully loss tolerant) under parallel repetition. 
 
+### QPV beyond one dimension
+- H. Buhrman, N. Chandran, S. Fehr, R. Gelles, V. Goyal, R. Ostrovsky, and C. Schaffner: [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Shows security against unentangled attacks, mentions extensions to higher dimensions.
+- D. Unruh: [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Considers QPV in higher dimensions carefully and shows unconditional security in the random oracle model.
+- Z. Zhang; F. Speelman; and P. Grosso: [Enhancing Position Verification in Multi-Node Quantum Networks (2025)](https://doi.org/10.1109/INFOCOM55648.2025.11044770) - Extension of QPV to 2D networks in a restricted attack model.
+
 ### Additional Features
 - U. Girish, G. Gluch, S. Goldwasser, T. Malkin, L. Orshansky and H. Yuen: [Private Proofs of When and Where (2026)](https://doi.org/10.1007/978-3-032-35409-9_14) - Introduces zero-knowledge position verification and constructs such protocols from secure position verification and post-quantum one-way functions.
 - J. Bartusek, Z. Huang, L. Orshansky, and H. Yuen: [How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat) (2026)](https://doi.org/10.48550/arXiv.2605.30732) - Introduces a stronger notions of position verification called quantum localization, which requires that there is a specified, unclonable state at the verified spacetime point-and that this state can be found nowhere else. Security of such schemes in proven in the classical oracle model.
