@@ -21,7 +21,7 @@ PB-QKD = Position-based Quantum Key Distribution
 
 ## Classical Impossibility
 
-- [Position-based cryptography (2009)](https://doi.org/10.1007/978-3-642-03356-8_23) - Establishes classical impossibility of position-based cryptography in the vanilla model. Explores possibility in the bounded-storage model.
+- N. Chandran, V. Goyal, R. Moriarty, and R. Ostrovsky: [Position-based cryptography (2009)](https://doi.org/10.1007/978-3-642-03356-8_23) - Establishes classical impossibility of position-based cryptography in the vanilla model. Explores possibility in the bounded-storage model.
 
 ## First Protocols
 
