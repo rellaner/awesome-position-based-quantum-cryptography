@@ -104,9 +104,9 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ## Quantum Position-based Authentication
 
-- [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Provides a generic, but inefficient, construction to go from QPV to QPA to PB-QKD.
-- [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Provides more efficient extensions to QPA and PB-QKD in the random oracle model for $f$-BB84 QPV. 
-- [Quantum Secure Key Exchange with Position-based Credentials (2025)](https://arxiv.org/abs/2506.03549) - Improved analysis of how to use QPV to provide the authentication within QKD.
+- H. Buhrman, N. Chandran, S. Fehr, R. Gelles, V. Goyal, R. Ostrovsky, and C. Schaffner: [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Provides a generic, but inefficient, construction to go from QPV to QPA to PB-QKD.
+- D. Unruh: [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Provides more efficient extensions to QPA and PB-QKD in the random oracle model for $f$-BB84 QPV. 
+- W. Y. Kon, I. W. Primaatmaja, K. Chakraborty, and C. Lim: [Efficient multi-basis quantum position verification secure against generalized adversaries (2026)](https://doi.org/10.1038/s41534-026-01325-9) - Improved analysis of how to use QPV to provide the authentication within QKD.
  
 ## Towards Understanding NLQC
 
