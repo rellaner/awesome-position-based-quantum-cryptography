@@ -122,9 +122,9 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ### Connection to holography
 
-- [Quantum tasks in holography (2019)](https://doi.org/10.1007/JHEP10(2019)233) - Connects QPV to the AdS/CFT conjecture by noting that a QPV protocol in the bulk must have an equivalent protocol in the boundary. The boundary implementation turns out to be a valid attack on the bulk QPV protocol, implementing it non-locally.
-- [Holographic scattering requires a connected entanglement wedge (2020)](https://doi.org/10.1007/JHEP08(2020)132) - Furthers the connection between QPV and holography and estimates the mutual information between the relevant boundary regions. Results based on the conjecture could yield efficient attacks on all QPV protocols due to the results in this paper.
-- [Holography as a resource for non-local quantum computation (2022)](https://arxiv.org/abs/2210.13500) - Discusses and fills a loophole in the paper one above. Costructs an attacked based on simulating a holographic CFT and argues that, based on some assumptions, any polynomially complex unitary can be efficiently attacked.
+- A. May: [Quantum tasks in holography (2019)](https://doi.org/10.1007/JHEP10(2019)233) - Connects QPV to the AdS/CFT conjecture by noting that a QPV protocol in the bulk must have an equivalent protocol in the boundary. The boundary implementation turns out to be a valid attack on the bulk QPV protocol, implementing it non-locally.
+- A. May, G. Penington, and J. Sorce: [Holographic scattering requires a connected entanglement wedge (2020)](https://doi.org/10.1007/JHEP08(2020)132) - Furthers the connection between QPV and holography and estimates the mutual information between the relevant boundary regions. Results based on the conjecture could yield efficient attacks on all QPV protocols due to the results in this paper.
+- K. Dolev and S. Cree: [Holography as a resource for non-local quantum computation (2022)](https://arxiv.org/abs/2210.13500) - Discusses and fills a loophole in the paper one above. Costructs an attacked based on simulating a holographic CFT and argues that, based on some assumptions, any polynomially complex unitary can be efficiently attacked.
 
 
 ## Towards Practicality
