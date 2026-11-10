@@ -53,6 +53,7 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - R. Allerstorfer, H. Buhrman, A. May, F. Speelman, and P. Verduyn Lunel: [Relating non-local quantum computation to information theoretic cryptography (2023)](https://doi.org/10.22331/q-2024-06-27-1387) - Connects $f$-routing to topics in classical cryptography, in particular conditional disclosure of secrets. Shows a sub-exponential upper bound for attacks for any $f$ and finds an $f$ that is believed to be outside of $\mathsf{P}$ (with pre-processing), but efficiently attacked.
 - V. R. Asadi, E. Culf, and A. May: [Rank lower bounds on non-local quantum computation (2024)](https://arxiv.org/abs/2402.18647) - Provides a lower bound in terms of the Schmidt-rank of the resource state for perfect attacks. Gives linear lower bounds for some concrete functions.
 - V. Asadi, R. Cleve, E. Culf, and A. May: [Linear gate bounds against natural functions for position-verification (2025)](https://doi.org/10.22331/q-2025-01-21-1604) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
+- L. Escolà-Farràs, L. Colisson Palais, F. Speelman: [A quantum cloning game with applications to quantum position verification (2025)](https://doi.org/10.4230/LIPIcs.TQC.2025.2) - Proves security of the $f$-route protocol in the random oracle model by analyzing a quantum cloning game.
 
 ### $f$-measure
 
