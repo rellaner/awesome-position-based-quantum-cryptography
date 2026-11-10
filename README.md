@@ -101,6 +101,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - A. Kent: [Quantum tagging for tags containing secret classical data (2011)](https://doi.org/10.1103/PhysRevA.84.022335) - Considers QPV in the setting when the verifiers and the prover pre-share a secret. Shows that then QPV is unconditionally secure by indefinitely expanding the secret using QKD.
 - D. Unruh: [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Shows unconditional security of $f$-BB84 QPV in the random oracle model.
 - J. Liu, Q. Liu, and L. Qian: [Beating classical impossibility of position verification (2022)](https://doi.org/10.4230/LIPIcs.ITCS.2022.100) - Constructs a QPV protocol with only classical input and output information from the assumption that LWE is quantum-hard. Shows unconditional security in the random oracle model.
+- A. Behera, V. Goyal: [Breaking the Bounded Entanglement Barrier for Quantum Position Verification (2026)](https://doi.org/10.48550/arXiv.2609.39234) - Introduces a model, in which the verifiers' messages are sent at a time drawn uniformly at random from a continuous time interval and proves security against LOCC adversaries. Also considers a model with discretized time where security depends on how accurately time can be measured
 
 ## Conjectured Exponential Lower Bound
 
