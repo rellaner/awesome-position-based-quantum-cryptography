@@ -140,4 +140,4 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ## Experiments
 
-- [Towards experimental demonstration of quantum position verification using single photons (2025)](https://doi.org/10.1088/2058-9565/adf2da) - A first demonstration experiment of QPV using the SWAP protocol, with single photons from a single semiconductor quantum dot in an optical microcavity.
+- K. Kanneworff, M. Poortvliet, D. Bouwmeester, R. Allerstorfer, P. Verduyn Lunel, F. Speelman, H. Buhrman, P. Steindl and W. Löffler: [Towards experimental demonstration of quantum position verification using single photons (2025)](https://doi.org/10.1088/2058-9565/adf2da) - A first demonstration experiment of QPV using the SWAP protocol, with single photons from a single semiconductor quantum dot in an optical microcavity.
