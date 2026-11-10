@@ -82,6 +82,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - S. Das and G. Siopsis: [Practically secure quantum position verification (2021)](https://doi.org/10.1088/1367-2630/ac0755) - Gives an overview over the existing protocols at the time and mixes elements of them to obtain different variations of those protocols.
 - R. Allerstorfer, H. Buhrman, F. Speelman, and P. Verduyn Lunel: [Towards practical and error-robust quantum position verification (2021)](https://arxiv.org/abs/2106.12911) - Defines a new protocol based on the SWAP test and studies it theoretically and practically.
 - R. Allerstorfer, A. Bluhm, H. Buhrman, M. Christandl, L. Escolà-Farràs, F. Speelman, and P. Verduyn Lunel: [Making existing quantum position verification protocols secure against arbitrary transmission loss (2025)](https://doi.org/10.1103/szwj-s7r6) - Introduces an extra commitment step into QPV and shows that for a class of protocols this makes the transmission loss irrelevant for security.
+- G. A. Kavuri, Y. Zhang, A. R. Gookin, S. Patra, J. C. Bienfang, H. Fu, Y. Alnawakhtha, D. V. Reddy, M. D. Mazurek, C. Abellán, W. Amaya, M. W. Mitchell, S. W. Nam, C. A. Miller, R. P. Mirin, M. J. Stevens, S. Glancy, E. Knill, L. K. Shalm: [Quantum Position Verification with Remote Untrusted Devices (2026)](https://doi.org/10.48550/arXiv.2601.16892) - Introduces and proves device-independent security of a Bell-test based QPV protocol which resembles $f$-measure, implements the protocol in an experiment 
 
 ## Universal Attacks on QPV
 
@@ -148,6 +149,9 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - L. Escolà-Farràs and F. Speelman: [Quantum position verification in one shot: parallel repetition of the $f$-BB84 and $f$-routing protocols (2025)](https://doi.org/10.48550/arXiv.2503.09544)- Proves security of $f$-route and $f$-measure under parallel repetition for random functions $f$.
 - L. Escolà-Farràs, B. Škorić, and F. Speelman: [Arbitrarily Loss-Tolerant Quantum Position Verification in a Single Execution (2026)](https://doi.org/10.48550/arXiv.2606.25037) - Proves security of the $f$-measure protocol with commitment step (which is the version of the protocol that is fully loss tolerant) under parallel repetition. 
 
+### Additional Features
+- U. Girish, G. Gluch, S. Goldwasser, T. Malkin, L. Orshansky and H. Yuen: [Private Proofs of When and Where (2026)](https://doi.org/10.1007/978-3-032-35409-9_14) - Introduces zero-knowledge position verification and constructs such protocols from secure position verification and post-quantum one-way functions.
+- J. Bartusek, Z. Huang, L. Orshansky, and H. Yuen: [How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat) (2026)](https://doi.org/10.48550/arXiv.2605.30732) - Introduces a stronger notions of position verification called quantum localization, which requires that there is a specified, unclonable state at the verified spacetime point-and that this state can be found nowhere else. Security of such schemes in proven in the classical oracle model.
 
 ## Experiments
 
