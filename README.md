@@ -63,6 +63,15 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - L. Escolà-Farràs and F. Speelman: [Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
 - R. Allerstorfer, A. Bluhm, H. Buhrman, M. Christand, L. Escolà-Farràs, F. Speelman, and P. Verduyn Lunel: [Making existing quantum position verification protocols secure against arbitrary transmission loss (2025)](https://doi.org/10.1103/szwj-s7r6) - Introduces an extra commitment step into QPV and shows that for a class of protocols, involving $f$-BB84 QPV, this makes the transmission loss irrelevant for security. Argues $f$-BB84 is a practical QPV protocol.
 - R. Allerstorfer, L. Escolà-Farràs, A. A. Ray, B. Skoric, and F. Speelman: [Continuous-variable quantum position verification secure against entangled attackers (2024)](https://doi.org/10.1103/PhysRevA.110.062605) - Generalises $f$-BB84 QPV to continuous-variable inputs and shows analogous security statements as for finite-dimensional inputs.
+- A. May and P. Verduyn Lunel [Quantum gate lower bounds for loss-tolerant position verification](https://arxiv.org/abs/2608.16495) -  Proves nearly-linear quantum gate lower for $f$-measure, even when allowing the attacker to declare a transmission loss of up to 50%. Proof is analytic, improved analysis of the monogamy-of-entanglement game.
+
+#### Bounds for concrete functions
+
+- V. R. Asadi, E. Culf, and A. May: [Rank lower bounds on non-local quantum computation (2024)](https://arxiv.org/abs/2402.18647) - Provides a lower bound in terms of the Schmidt-rank of the resource state for perfect attacks. Gives linear lower bounds for some concrete functions.
+- V. Asadi, R. Cleve, E. Culf, and A. May: [Linear gate bounds against natural functions for position-verification (2025)](https://doi.org/10.22331/q-2025-01-21-1604) - Provides a robust linear lower bound on the number of quantum gates/measurements needed to attack the inner product function.
+- K. Bogner: [Robust logarithmic entanglement lower bound for $f$-routing (2026)](https://doi.org/10.48550/arXiv.2608.05775) -  Proves robust logarithmic lower bound for $f$-route with the binary inner product function
+- A. Hasegawa and R. Mataraarachchi: [New lower bounds for CDS and $f$-routing (2026)](https://doi.org/10.48550/arXiv.2609.24291) - Gives linear lower bounds for perfect attacks for the inner product function.
+- O. Renard and N. Spooner: [Computational Bounds for $f$-Routing (2026)](https://doi.org/10.48550/arXiv.2609.40278) - Proves unconditional resource lower bounds for concrete $f$ in the case of uniform attackers under computational assumptions 
 
 ### Bell QPV
 
@@ -103,6 +112,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - D. Unruh: [Quantum position verification in the random oracle model (2014)](https://doi.org/10.1007/978-3-662-44381-1_1) - Shows unconditional security of $f$-BB84 QPV in the random oracle model.
 - J. Liu, Q. Liu, and L. Qian: [Beating classical impossibility of position verification (2022)](https://doi.org/10.4230/LIPIcs.ITCS.2022.100) - Constructs a QPV protocol with only classical input and output information from the assumption that LWE is quantum-hard. Shows unconditional security in the random oracle model.
 - A. Behera, V. Goyal: [Breaking the Bounded Entanglement Barrier for Quantum Position Verification (2026)](https://doi.org/10.48550/arXiv.2609.39234) - Introduces a model, in which the verifiers' messages are sent at a time drawn uniformly at random from a continuous time interval and proves security against LOCC adversaries. Also considers a model with discretized time where security depends on how accurately time can be measured
+- O. Renard and N. Spooner: [Computational Bounds for $f$-Routing (2026)](https://doi.org/10.48550/arXiv.2609.40278) - Proves unconditional resource lower bounds for concrete $f$ in the case of uniform attackers under computational assumptions
 
 ## Conjectured Exponential Lower Bound
 
@@ -150,7 +160,7 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 - M. Tomamichel, S. Fehr, J. Kaniewski and S. Wehner: [A monogamy-of-entanglement game with applications to device-independent quantum cryptography (2013)](https://doi.org/10.1088/1367-2630/15/10/103002) - Shows a tight upper bound for unentangled attacks, parallel repetition and a linear lower bound for the repeated protocol.
 - L. Escolà-Farràs and F. Speelman: [Quantum position verification in one shot: parallel repetition of the $f$-BB84 and $f$-routing protocols (2025)](https://doi.org/10.48550/arXiv.2503.09544)- Proves security of $f$-route and $f$-measure under parallel repetition for random functions $f$.
-- L. Escolà-Farràs, B. Škorić, and F. Speelman: [Arbitrarily Loss-Tolerant Quantum Position Verification in a Single Execution (2026)](https://doi.org/10.48550/arXiv.2606.25037) - Proves security of the $f$-measure protocol with commitment step (which is the version of the protocol that is fully loss tolerant) under parallel repetition. 
+- L. Escolà-Farràs, B. Škorić, and F. Speelman: [Arbitrarily Loss-Tolerant Quantum Position Verification in a Single Execution (2026)](https://doi.org/10.48550/arXiv.2606.25037) - Proves security of the $f$-measure protocol with commitment step (which is the version of the protocol that is fully loss tolerant) under parallel repetition.
 
 ### QPV beyond one dimension
 - H. Buhrman, N. Chandran, S. Fehr, R. Gelles, V. Goyal, R. Ostrovsky, and C. Schaffner: [Position-based quantum cryptography: Impossibility and constructions (2011)](https://doi.org/10.1137/130913687) - Shows security against unentangled attacks, mentions extensions to higher dimensions.
