@@ -11,6 +11,7 @@ PB-QKD = Position-based Quantum Key Distribution
 
 - [Classical Impossibility](#classical-impossibility)
 - [First Protocols](#first-protocols)
+- [Protocols without quantum communication](#protocols-without-quantum-communication)
 - [Universal Attacks on QPV](#universal-attacks-on-qpv)
 - [Ways Around the Universal Attacks on QPV](#ways-around-the-universal-attacks-on-qpv)
 - [Conjectured Exponential Lower Bound](#conjectured-exponential-lower-bound)
@@ -94,6 +95,12 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 - G. A. Kavuri, Y. Zhang, A. R. Gookin, S. Patra, J. C. Bienfang, H. Fu, Y. Alnawakhtha, D. V. Reddy, M. D. Mazurek, C. Abellán, W. Amaya, M. W. Mitchell, S. W. Nam, C. A. Miller, R. P. Mirin, M. J. Stevens, S. Glancy, E. Knill, L. K. Shalm: [Quantum Position Verification with Remote Untrusted Devices (2026)](https://doi.org/10.48550/arXiv.2601.16892) - Introduces and proves device-independent security of a Bell-test based QPV protocol which resembles $f$-measure, implements the protocol in an experiment
 - J. Cai, R. Fleur, B. Tissot, W. Löffler, T. B. Propp: [High-Fidelity Remote Graph State Preparation for Blind Quantum Computation (2026)](https://doi.org/10.48550/arXiv.2610.06247) - Proposes a QPV protocol based on remote graph state preparation.
 - W. Y. Kon, N. Bigagli, A. Conrad, T. Shields, F. Kaleoglu, I. W. Primaatmaja, A. Craddock, RJ Pisani, M. Flament, J. Seeber, O. Amer, C. Lim, X. Ling, R. Otter, K. Chakraborty, and M. Namazi: [Loss-Tolerant Quantum Position Verification for Metropolitan Area Networks (2026)](https://doi.org/10.48550/arXiv.2609.23234) - Introduces a QPV protocol that is fully loss-tolerant as long as all information travels at the speed of light and that has the prover prepare the quantum state. The protocol is secure in the random oracle model. It is demonstrated experimentally with off-the-shelf hardware. 
+
+## Protocols without quantum communication
+
+- J. Liu, Q. Liu, and L. Qian: [Beating classical impossibility of position verification (2022)](https://doi.org/10.4230/LIPIcs.ITCS.2022.100) - Constructs the first QPV protocol with only classical input and output information from the assumption that LWE is quantum-hard. Shows unconditional security in the random oracle model.
+- F. Kaleoglu, M. Liu, D. Cui, O. Amer, M. Pistoia, C. Lim, and Kaushik Chakraborty: [On the equivalence between classically verifiable position verification and certified randomness (2026)](https://doi.org/10.1038/s41467-026-70628-4) - Presents a compiler that converts any single-device certified randomness protocol to classically verifiable position verification protocol which is secure in the random oracle model.
+- W. Y. Kon, F. Kaleoglu, and K. Chakraborty: [Classical Verifier Position Verification from Non-Local Games (2026)](https://doi.org/10.48550/arXiv.2609.38441) - Provides a compiler that converts any complete-support non-local game with the required quantum advantage to a multi-prover classically verifiable position verification protocol.
 
 ## Universal Attacks on QPV
 
