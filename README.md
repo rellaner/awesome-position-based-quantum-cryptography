@@ -89,8 +89,8 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 
 ### Attacks on classes of unitaries
 
-- [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Shows efficient attacks for certain classes, like the second level of the Clifford hierarchy.
-- [Bounds on instantaneous non-local quantum computation (2020)](https://doi.org/10.1109/TIT.2019.2950190) - Shows that any 2-qubit unitary can be attacked up to error $\varepsilon$ using $\log(1/\varepsilon)$ EPR pairs and that any hermitian bipartite binary controlled unitary can be attacked with 1 EPR pair. Shows logarithmic lower bound on entanglement entropy for general bipartite binary controlled unitary.
+- K. Chakraborty and A. Leverrier: [Practical position-based quantum cryptography (2015)](https://doi.org/10.1103/PhysRevA.92.052304) - Shows efficient attacks for certain classes, like the second level of the Clifford hierarchy.
+- A. Gonzales and E. Chitambar: [Bounds on instantaneous non-local quantum computation (2020)](https://doi.org/10.1109/TIT.2019.2950190) - Shows that any 2-qubit unitary can be attacked up to error $\varepsilon$ using $\log(1/\varepsilon)$ EPR pairs and that any hermitian bipartite binary controlled unitary can be attacked with 1 EPR pair. Shows logarithmic lower bound on entanglement entropy for general bipartite binary controlled unitary.
 
 ## Ways Around the Universal Attacks on QPV
 
