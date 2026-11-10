@@ -43,6 +43,7 @@ quantum entanglement (2010)](https://doi.org/10.1103/PhysRevA.81.042319) - Intro
 - L. Escolà-Farràs and F. Speelman: [Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers (2023)](https://doi.org/10.1103/PhysRevLett.131.140802) - Tightly characterises the secure region of the protocol depending on the loss and error rates.
 - R. Allerstorfer, L. Escolà-Farràs, A. A. Ray, B. Škorić, F. Speelman, and P. Verduyn Lunel: [Security of a continuous-variable based quantum position verification protocol (2023)](https://arxiv.org/abs/2308.04166) - Generalises the protocol to continuous variable inputs and shows security against unentangled attacks depending on loss and noise rates.
 - C. A. Miller and Y. Alnawakhtha: [Perfect cheating is impossible for single-qubit position verification (2026)](https://doi.org/10.1103/4pcn-d1yj) - Considers a generalisation where the input qubits are eigenstates of a $\mathbb{C}^2$ projector chosen uniformly at random. Shows that no finite-dimensional resource state can perfectly attack this protocol.
+- L. Escolà-Farràs and F. Speelman: [Lossy-and-Constrained Extended Non-Local Games with Applications to Quantum Cryptography (2025)](https://doi.org/10.22331/q-2025-04-18-1712) - Improved analyis of the BB84 protocol under loss compared to "Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers" (2023) by the same authors, introduces SDP hierarchies to compute bounds on lossy-and-constrained extended non-local games
 
 ### $f$-route
 
