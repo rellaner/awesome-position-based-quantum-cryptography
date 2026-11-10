@@ -152,3 +152,4 @@ quantum cryptography protocols against entanglement attacks (2011)](https://doi.
 ## Experiments
 
 - K. Kanneworff, M. Poortvliet, D. Bouwmeester, R. Allerstorfer, P. Verduyn Lunel, F. Speelman, H. Buhrman, P. Steindl and W. Löffler: [Towards experimental demonstration of quantum position verification using single photons (2025)](https://doi.org/10.1088/2058-9565/adf2da) - A first demonstration experiment of QPV using the SWAP protocol, with single photons from a single semiconductor quantum dot in an optical microcavity.
+- G.-J. Fan-Yuan, Y.-G. Shan, C. Zhang, Y.-L. Wang, Y.-X. Fan, W.-X. Xie, D.-Y. He, S. Wang, Z.-Q. Yin, W. Chen, S.-N. Fu, G.-C. Guo, and Z.-F. Han: [Relativistic position verification with coherent states (2026)](https://doi.org/10.1038/s41567-026-03439-5) -  Experimental implementation of the $f$-measure protocol using phase-randomized weak coherent states
